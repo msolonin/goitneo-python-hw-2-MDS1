@@ -72,8 +72,6 @@ class Record:
 
 
 class AddressBook(UserDict):
-    def __init__(self, *args, **kwargs):
-        super(AddressBook, self).__init__(*args, **kwargs)
 
     @input_error
     def add_record(self, record):
