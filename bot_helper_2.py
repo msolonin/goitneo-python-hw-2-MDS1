@@ -25,14 +25,11 @@ class Field:
 
 
 class Name(Field):
-    def __init__(self, *args, **kwargs):
-        super(Name, self).__init__(*args, **kwargs)
+    pass
 
 
 class Phone(Field):
-
-    def __init__(self, *args, **kwargs):
-        super(Phone, self).__init__(*args, **kwargs)
+    pass
 
 
 class Record:
